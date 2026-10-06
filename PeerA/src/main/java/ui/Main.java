@@ -101,5 +101,6 @@ public class Main {
                 System.err.println("<< [ERROR]: " + e.getMessage() + "\n");
             }
         }
+        scanner.close();
     }
 }
